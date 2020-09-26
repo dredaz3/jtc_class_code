@@ -23,3 +23,17 @@ def formula(hours, rate, name):
 formula(335, 19, "Lori")
 #sample Q1
 hours_q1[:3]
+
+
+#hours_q1 = 335.5, 3.5, 249.5, 61.5, 502.5
+#q1 = (hours_q1[:4])
+
+
+def formula(hours, rate, name):
+    amount = hours * rate 
+    newamount_9 = amount * .9
+    newamount_1 = amount * .1
+    return amount, amount - newamount_1, amount - newamount_9,str(name)
+
+total = formula(121, 14, "willa")
+print(total)
