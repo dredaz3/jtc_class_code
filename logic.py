@@ -1,0 +1,20 @@
+print (1 > 0)
+a = 0
+b = 1
+c = 1
+print(a == b )
+print(f"is a equal to b?: {a==b}")
+print(f"is a  not equal to b? {a!=b}")
+print(f" is a greater than b? {a > b}")
+print(f" is a lesser than b? {a < b }")
+print(f" is b greater than or equal to c? {b >= c}")
+print(f" is b less than or equal to c?: {b <=c} ")
+print (True --1)
+print(True == 1.0)
+print(True == 0)
+print(True > 0)
+print(False == 0)
+print(True == 'True')
+print(a == b)
+print(a != c)
+print('cat' > 'dog' )
